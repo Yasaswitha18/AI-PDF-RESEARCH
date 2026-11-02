@@ -132,3 +132,4 @@ export function UploadSection({ onUpload, isUploading, uploadProgress, error }) 
 }
 
 export default UploadSection;
+

@@ -55,3 +55,4 @@ export function cosineSimilarity(vecA, vecB) {
 }
 
 export default cosineSimilarity;
+

@@ -176,3 +176,4 @@ export class InMemoryVectorStore {
 // Export a singleton instance for the application session
 export const vectorStore = new InMemoryVectorStore();
 export default vectorStore;
+

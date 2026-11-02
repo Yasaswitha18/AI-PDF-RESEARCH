@@ -51,3 +51,4 @@ test('Cosine Similarity - Throws on non-array input', () => {
     cosineSimilarity('invalid', [1, 2]);
   }, TypeError);
 });
+

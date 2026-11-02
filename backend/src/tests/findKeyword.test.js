@@ -48,3 +48,4 @@ test('Keyword Search - Gracefully handles empty query', () => {
   assert.strictEqual(result.totalOccurrences, 0);
   assert.deepStrictEqual(result.results, []);
 });
+

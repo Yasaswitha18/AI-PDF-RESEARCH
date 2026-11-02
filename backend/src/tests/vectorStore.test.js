@@ -55,3 +55,4 @@ test('InMemoryVectorStore - Clear removes all chunks and document info', () => {
   assert.strictEqual(store.getDocumentInfo(), null);
   assert.strictEqual(store.getChunks().length, 0);
 });
+

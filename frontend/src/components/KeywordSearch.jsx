@@ -83,3 +83,4 @@ export function KeywordSearch({ onSearch, hasDocument }) {
 }
 
 export default KeywordSearch;
+

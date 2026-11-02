@@ -66,3 +66,4 @@ export async function searchPdf({ query, topK = 4 }) {
 }
 
 export default searchPdf;
+

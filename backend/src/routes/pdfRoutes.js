@@ -47,3 +47,4 @@ router.get('/status', getDocumentStatus);
 router.post('/chat', chatWithDocument);
 
 export default router;
+

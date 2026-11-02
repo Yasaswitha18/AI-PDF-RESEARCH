@@ -44,3 +44,4 @@ export function Header({ geminiConfigured, activeDocument }) {
 }
 
 export default Header;
+
