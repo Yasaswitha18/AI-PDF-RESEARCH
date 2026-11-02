@@ -1,0 +1,30 @@
+{
+  "name": "ai-pdf-research-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI PDF Research Assistant with RAG and Gemini Function Calling",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/tests/*.test.js"
+  },
+  "keywords": [
+    "rag",
+    "gemini",
+    "embeddings",
+    "pdf-assistant",
+    "vector-search",
+    "function-calling"
+  ],
+  "author": "Yasaswitha Vemuri",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  }
+}

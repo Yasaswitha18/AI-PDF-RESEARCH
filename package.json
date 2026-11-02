@@ -1,0 +1,24 @@
+{
+  "name": "ai-pdf-research-assistant",
+  "version": "1.0.0",
+  "description": "Full-stack AI PDF Research Assistant with RAG, Vector Search, and Gemini Function Calling Agent",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "rag",
+    "gemini",
+    "embeddings",
+    "ai-agent",
+    "pdf-assistant",
+    "cosine-similarity",
+    "vector-search"
+  ],
+  "author": "Yasaswitha Vemuri",
+  "license": "MIT"
+}
